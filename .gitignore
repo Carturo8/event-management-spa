@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+.out/
+.vite/
+.vite-cache/
+coverage/
+build/
+
+# Local env files
+.env
+.env.*.local
+*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains IDEs (WebStorm, PhpStorm, etc.)
+.idea/
+*.iml
