@@ -191,6 +191,14 @@ project-root/
 - La sesión se guarda en `localStorage`.
 - No se permiten múltiples inscripciones del mismo evento por el mismo usuario.
 
+
+## 👤 Autor
+
+- Name: Carlos Arturo Rojas Bolaños.
+- Clan: Gosling.
+- Correo: caarojasbo@unal.edu.co.
+- CC: 1105793265.
+
 ## 📝 Licencia
 
 Este proyecto se publica bajo la [Licencia MIT](LICENSE).
