@@ -190,6 +190,13 @@ project-root/
 - Session is stored in `localStorage`.
 - Users can't enroll in the same event more than once.
 
+## 👤 Author
+
+- Name: Carlos Arturo Rojas Bolaños.
+- Clan: Gosling.
+- Email: caarojasbo@unal.edu.co.
+- ID: 1105793265.
+
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
