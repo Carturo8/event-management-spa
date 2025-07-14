@@ -23,7 +23,7 @@ export function renderDashboardView() {
     app.innerHTML = `
     <div class="dashboard-header">
         <h1>${name}</h1>
-        <p><strong>${role}</strong></p>
+        <h2><strong>${role}</strong></h2>
         <button id="logoutBtn" class="logout-btn">Log Out</button>
     </div>
     <div id="dashboardContent" class="dashboard-content"></div>

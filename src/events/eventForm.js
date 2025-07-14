@@ -38,7 +38,7 @@ export async function renderEventForm(container) {
     // Render the form
     container.innerHTML = `
         <h2>${isEditing ? 'Edit Event' : 'Create Event'}</h2>
-        <form id="eventForm">
+        <form id="eventForm" class="auth-form">
             <label>Name</label>
             <input type="text" name="name" value="${eventData.name}" required>
 
@@ -51,8 +51,8 @@ export async function renderEventForm(container) {
             <label>Date</label>
             <input type="date" name="date" value="${eventData.date}" required>
             
-            <button id="cancelBtn">Cancel</button>
             <button type="submit">${isEditing ? 'Update' : 'Create'}</button>
+            <button id="cancelBtn">Cancel</button>
         </form>
     `;
 
