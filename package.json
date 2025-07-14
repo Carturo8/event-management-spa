@@ -1,0 +1,25 @@
+{
+  "name": "carlosarturorojasbolanos265",
+  "version": "1.0.0",
+  "description": "Single Page Application for event management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3000"
+  },
+  "author": "Carlos Rojas",
+  "license": "MIT",
+  "keywords": [
+    "SPA",
+    "Vite",
+    "json-server"
+  ],
+  "type": "commonjs",
+  "dependencies": {
+    "sweetalert2": "^11.22.2"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^7.0.4"
+  }
+}
