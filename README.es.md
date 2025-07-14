@@ -35,7 +35,7 @@ Vista de la SPA como Visitante (rol: `Visitor`).
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Carturo8/js-test
+https://github.com/Carturo8/event-management-spa
 ```
 
 ### 2. Instalar dependencias
