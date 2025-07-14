@@ -22,8 +22,8 @@ export function renderDashboardView() {
     // Base layout for the dashboard
     app.innerHTML = `
     <div class="dashboard-header">
-        <h1>Welcome, ${name}</h1>
-        <p>You are logged in as <strong>${role}</strong>.</p>
+        <h1>${name}</h1>
+        <p><strong>${role}</strong></p>
         <button id="logoutBtn" class="logout-btn">Log Out</button>
     </div>
     <div id="dashboardContent" class="dashboard-content"></div>

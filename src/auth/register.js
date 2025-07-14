@@ -30,7 +30,7 @@ export function renderRegisterView() {
                 </select>
 
                 <button type="submit">Register</button>
-                <button id="backHomeBtn" class="secondary-button">Back to Home</button>
+                <button id="backHomeBtn">Back to Home</button>
             </form>
         </div>
     `;
