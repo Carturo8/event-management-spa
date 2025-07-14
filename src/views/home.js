@@ -9,9 +9,11 @@ export function renderHomeView() {
 
     // Inject basic home screen content
     app.innerHTML = `
-        <h1>Welcome to the Event Management SPA</h1>
-        <button id="goToLogin">Log In</button>
-        <button id="goToRegister">Register</button>
+        <div class="welcome-container">
+            <h1>Welcome to the Event Management SPA</h1>
+            <button id="goToLogin">Log In</button>
+            <button id="goToRegister">Register</button>
+        </div>
     `;
 
     // Navigate to the login view when the "Log In" button is clicked

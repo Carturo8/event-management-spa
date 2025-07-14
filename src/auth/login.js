@@ -10,8 +10,9 @@ export function renderLoginView() {
     // Inject the login form into the app container
     app.innerHTML = `
         <div class="auth-container">
-            <h1>Login</h1>
             <form id="loginForm" class="auth-form">
+                <h2>Login</h2>
+                
                 <label>Email</label>
                 <input type="email" name="email" required>
 
@@ -19,8 +20,8 @@ export function renderLoginView() {
                 <input type="password" name="password" required>
 
                 <button type="submit">Log In</button>
+                <button id="backHomeBtn">Back to Home</button>
             </form>
-            <button id="backHomeBtn" class="secondary-button">Back to Home</button>
         </div>
     `;
 

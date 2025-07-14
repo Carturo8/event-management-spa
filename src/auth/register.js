@@ -9,8 +9,9 @@ export function renderRegisterView() {
     // Inject the registration form into the app container
     app.innerHTML = `
         <div class="auth-container">
-            <h1>Register</h1>
             <form id="registerForm" class="auth-form">
+                <h2>Register</h2>
+                
                 <label>Full Name</label>
                 <input type="text" name="name" required>
 
@@ -29,8 +30,8 @@ export function renderRegisterView() {
                 </select>
 
                 <button type="submit">Register</button>
+                <button id="backHomeBtn" class="secondary-button">Back to Home</button>
             </form>
-            <button id="backHomeBtn" class="secondary-button">Back to Home</button>
         </div>
     `;
 
