@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "5601",
+      "name": "Carlos Rojas",
+      "email": "carlos@admin.com",
+      "password": "admin123",
+      "role": "Admin"
+    },
+    {
+      "id": "5602",
+      "name": "Arturo Bolaños",
+      "email": "arturo@visitor.com",
+      "password": "visitor123",
+      "role": "Visitor"
+    },
+    {
+      "id": "217b",
+      "name": "Juan",
+      "email": "otro@user.com",
+      "password": "visit123",
+      "role": "Visitor"
+    },
+    {
+      "id": "170d",
+      "name": "Yo",
+      "email": "otro1@user.com",
+      "password": "algo123",
+      "role": "Visitor"
+    },
+    {
+      "id": "b5a8",
+      "name": "Pepito",
+      "email": "otro2@user.com",
+      "password": "algo123",
+      "confirm_password": "algo123",
+      "role": "Visitor"
+    }
+  ],
+  "events": [
+    {
+      "name": "Conference on Modern Literature",
+      "description": "A deep dive into contemporary literary trends.",
+      "capacity": 12,
+      "date": "2025-10-17",
+      "id": "b001"
+    },
+    {
+      "name": "Concert of Classical Music",
+      "description": "An evening of classical music featuring renowned artists.",
+      "capacity": 43,
+      "date": "2021-08-15",
+      "id": "b002"
+    },
+    {
+      "name": "Art Exhibition Opening",
+      "description": "Opening of the new art exhibition showcasing local artists.",
+      "capacity": 0,
+      "date": "2025-07-17",
+      "id": "b003"
+    }
+  ],
+  "enrollments": [
+  ]
+}
