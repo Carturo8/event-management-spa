@@ -35,6 +35,7 @@ View of the SPA as a visitor (role: `Visitor`).
 
 ```bash
 https://github.com/Carturo8/event-management-spa
+cd event-management-spa
 ```
 
 ### 2. Install Dependencies
